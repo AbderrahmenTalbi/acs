@@ -1,4 +1,3 @@
-// components/our-structure.tsx
 import React from "react";
 
 export const OurStructure: React.FC = () => {

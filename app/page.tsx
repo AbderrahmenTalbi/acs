@@ -6,6 +6,8 @@ import { JoinUs } from "@/components/join-us"
 import { Contact } from "@/components/contact"
 import { Navigation } from "@/components/navigation"
 import { OurStructure } from "@/components/OurStructure"
+import { MajorEvents } from "@/components/MajorEvents"
+import { MemberTriumphs } from "@/components/MemberTriumphs"
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <Hero />
       <WhoWeAre />
       <OurStructure />
+      <MemberTriumphs />
       <WhatWeDo />
       <PastEvents />
       <JoinUs />
