@@ -5,6 +5,7 @@ import { PastEvents } from "@/components/past-events"
 import { JoinUs } from "@/components/join-us"
 import { Contact } from "@/components/contact"
 import { Navigation } from "@/components/navigation"
+import { OurStructure } from "@/components/OurStructure"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <WhoWeAre />
+      <OurStructure />
       <WhatWeDo />
       <PastEvents />
       <JoinUs />

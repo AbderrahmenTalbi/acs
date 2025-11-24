@@ -1,4 +1,4 @@
-import { Mail, MessageSquare, Github, Linkedin, Twitter } from "lucide-react"
+import { Mail, MessageSquare, Github, Linkedin, Twitter, Instagram, Facebook } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Contact() {
@@ -52,9 +52,21 @@ export function Contact() {
                   <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
                     <Github className="w-5 h-5" />
                   </Button>
-                  <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
-                    <Linkedin className="w-5 h-5" />
-                  </Button>
+                  <a href="https://www.linkedin.com/company/acs-club/" target="_blank" rel="noopener noreferrer">
+                    <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
+                      <Linkedin className="w-5 h-5" />
+                    </Button>
+                  </a>
+                  <a href="https://www.instagram.com/acs_dz/" target="_blank" rel="noopener noreferrer">
+                    <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
+                      <Instagram className="w-5 h-5" />
+                    </Button>
+                  </a>
+                  <a href="https://web.facebook.com/profile.php?id=61577770979224&mibextid=wwXIfr&rdid=oyVPGhcJyvh9KD9t&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1BKunChnbs%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr#" target="_blank" rel="noopener noreferrer">
+                    <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
+                      <Facebook className="w-5 h-5" />
+                    </Button>
+                  </a>
                   <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
                     <Twitter className="w-5 h-5" />
                   </Button>
@@ -69,7 +81,6 @@ export function Contact() {
                 <div>
                   <p className="font-medium mb-2">Weekly Meetings</p>
                   <p className="text-muted-foreground">Thursdays, 6:00 PM - 8:00 PM</p>
-                  <p className="text-sm text-muted-foreground mt-1">Student Center, Room 204</p>
                 </div>
 
                 <div className="pt-4 border-t border-border">
@@ -81,8 +92,8 @@ export function Contact() {
 
                 <div className="pt-4 border-t border-border">
                   <p className="font-medium mb-2">Location</p>
-                  <p className="text-muted-foreground">Computer Science Building</p>
-                  <p className="text-muted-foreground">123 University Ave</p>
+                  <p className="text-muted-foreground">92 Bd Des Martyrs,El Madania,</p>
+                  <p className="text-muted-foreground">Algiers,Algeria</p>
                 </div>
               </div>
             </div>
