@@ -14,6 +14,7 @@ export function Contact() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
+            {/* Contact Info */}
             <div className="bg-card border border-border rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
 
@@ -46,6 +47,7 @@ export function Contact() {
                 </div>
               </div>
 
+              {/* Socials */}
               <div className="mt-8 pt-8 border-t border-border">
                 <p className="font-medium mb-4">Follow Us</p>
                 <div className="flex gap-3">
@@ -62,7 +64,11 @@ export function Contact() {
                       <Instagram className="w-5 h-5" />
                     </Button>
                   </a>
-                  <a href="https://web.facebook.com/profile.php?id=61577770979224&mibextid=wwXIfr&rdid=oyVPGhcJyvh9KD9t&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1BKunChnbs%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://web.facebook.com/profile.php?id=61577770979224"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
                       <Facebook className="w-5 h-5" />
                     </Button>
@@ -74,37 +80,29 @@ export function Contact() {
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-lg p-8">
-              <h3 className="text-2xl font-bold mb-6">Office Hours</h3>
+            {/* Map */}
+            <div className="bg-card border border-border rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199.80449210410634!2d3.055095407340236!3d36.749646399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb27da29624c3%3A0x3ba7f072ab3c9345!2z2KfZhNmF2LHZg9iyINin2YTYq9mC2KfZgdmKINi52KjYr9in2YTYsdit2YXZhiDZhNi52YTZiQ!5e0!3m2!1sen!2sdz!4v1764785194967!5m2!1sen!2sdz"
+                width="100%"
+                height="100%"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full rounded-lg"
+                title="École supérieure en informatique 08 Mai 1945"
+              ></iframe>
 
-              <div className="space-y-4">
-                <div>
-                  <p className="font-medium mb-2">Weekly Meetings</p>
-                  <p className="text-muted-foreground">Thursdays, 6:00 PM - 8:00 PM</p>
-                </div>
-
-                <div className="pt-4 border-t border-border">
-                  <p className="font-medium mb-2">Office Hours</p>
-                  <p className="text-muted-foreground">Monday - Friday</p>
-                  <p className="text-muted-foreground">2:00 PM - 5:00 PM</p>
-                  <p className="text-sm text-muted-foreground mt-1">Tech Hub, Room 101</p>
-                </div>
-
-                <div className="pt-4 border-t border-border">
-                  <p className="font-medium mb-2">Location</p>
-                  <p className="text-muted-foreground">92 Bd Des Martyrs,El Madania,</p>
-                  <p className="text-muted-foreground">Algiers,Algeria</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Footer */}
       <footer className="mt-24 pt-8 border-t border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-sm text-muted-foreground">
-            <p>© 2025 Advanced Computing Society. All rights reserved.</p>
+            <p>© 2025 Advanced Computing Society. Abderrahmane Laala Youth House, Tech Hub, Algiers.</p>
           </div>
         </div>
       </footer>

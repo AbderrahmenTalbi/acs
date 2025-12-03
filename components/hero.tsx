@@ -31,9 +31,11 @@ export function Hero() {
             Innovate. Code. <span className="text-primary">Transform.</span>
           </h1>
 
+          {/* UPDATED DESCRIPTION */}
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty leading-relaxed">
-            Join a community of passionate developers, innovators, and tech enthusiasts pushing the boundaries of
-            computing.
+            The Advanced Computing Society (ACS) is the heartbeat of tech at <strong>Abderrahmane Laala Youth House</strong>.
+            We are more than just coders; we are a family of innovators enabled by the <strong>Jisr Numuw Initiative</strong>.
+            Our mission is to build bridges (Jisr) for youth to master technology and create real impact in our society.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -41,6 +43,7 @@ export function Hero() {
               Join Our Community
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
+
             <Button
               size="lg"
               variant="outline"

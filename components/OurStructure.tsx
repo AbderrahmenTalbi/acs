@@ -12,40 +12,49 @@ export const OurStructure: React.FC = () => {
                     </h2>
                 </div>
 
-                {/* Executive Team */}
+                {/* Core Team (Previously Executive Team) */}
                 <div className="bg-orange-500 text-white px-8 py-4 rounded-lg text-center font-bold text-xl shadow-lg mb-8">
-                    Executive Team
+                    Core Team
                 </div>
 
                 {/* Departments */}
                 <div className="flex flex-col md:flex-row gap-6 w-full justify-center">
+                    {/* Tech & Development */}
                     <div className="bg-gray-50 border border-orange-300 px-6 py-4 rounded-lg text-center flex-1 max-w-xs shadow-md">
-                        <h3 className="font-bold text-lg mb-2 text-orange-500">Marketing</h3>
-                        <p className="text-sm text-gray-600">Brand & Outreach</p>
+                        <h3 className="font-bold text-lg mb-2 text-orange-500">Tech & Development</h3>
+                        <p className="text-sm text-gray-600">Building the Future.</p>
                     </div>
+
+                    {/* Design & Media */}
                     <div className="bg-gray-50 border border-orange-300 px-6 py-4 rounded-lg text-center flex-1 max-w-xs shadow-md">
-                        <h3 className="font-bold text-lg mb-2 text-orange-500">Finance</h3>
-                        <p className="text-sm text-gray-600">Budget & Sponsorship</p>
+                        <h3 className="font-bold text-lg mb-2 text-orange-500">Design & Media</h3>
+                        <p className="text-sm text-gray-600">Visualizing the Vision.</p>
                     </div>
+
+                    {/* Partnerships & Outreach (Replaces Finance) */}
                     <div className="bg-gray-50 border border-orange-300 px-6 py-4 rounded-lg text-center flex-1 max-w-xs shadow-md">
-                        <h3 className="font-bold text-lg mb-2 text-orange-500">Tech Department</h3>
-                        <p className="text-sm text-gray-600">Multiple Sub-departments</p>
+                        <h3 className="font-bold text-lg mb-2 text-orange-500">Partnerships & Outreach</h3>
+                        <p className="text-sm text-gray-600">Building Bridges & Opportunities.</p>
                     </div>
                 </div>
 
-                {/* Sub-departments */}
+                {/* Expanded Department Descriptions (Sub-sections) */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8 justify-items-center w-full max-w-4xl">
-                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full text-center">
-                        <span className="text-orange-500">●</span> Development
+
+                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full">
+                        <span className="text-orange-500">●</span> Building the Future
                     </div>
-                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full text-center">
-                        <span className="text-orange-500">●</span> Cybersecurity
+
+                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full">
+                        <span className="text-orange-500">●</span> Visualizing the Vision
                     </div>
-                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full text-center">
-                        <span className="text-orange-500">●</span> AI/ML
+
+                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full">
+                        <span className="text-orange-500">●</span> Nurturing Potential
                     </div>
-                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full text-center">
-                        <span className="text-orange-500">●</span> Entrepreneurship
+
+                    <div className="bg-gray-50 px-4 py-3 rounded text-center text-base border border-gray-200 font-semibold shadow-sm w-full">
+                        <span className="text-orange-500">●</span> Connecting Communities
                     </div>
                 </div>
             </div>
