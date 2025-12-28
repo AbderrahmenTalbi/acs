@@ -29,7 +29,7 @@ export const MajorEvents: React.FC = () => {
                             <div className="text-orange-500 text-4xl font-bold mb-2">02</div>
                             <h3 className="text-2xl font-bold mb-4 text-gray-900">Jisr Numuw Ideathon</h3>
                             <ul className="space-y-2 text-gray-700 list-inside list-disc ml-4">
-                                <li>60 attendees</li>
+                                <li>110+ attendees</li>
                                 <li>Community building focus</li>
                                 <li>Ideas & plans for Jisr Numuw initiative</li>
                             </ul>

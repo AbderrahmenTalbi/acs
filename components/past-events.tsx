@@ -7,19 +7,19 @@ export function PastEvents() {
       title: "JISR NUMUW",
       date: "5-6 July, 2025",
       location: "Sablettes Park, Algiers, Algeria",
-      attendees: 85,
+      attendees: 110,
       description:
-        "JISR NUMUW is a national event that brings together Algeria’s brightest youth to design innovative and interconnected solutions aimed at empowering and uniting young people across the country’s provinces.",
+        "A marathon of minds where youth solvers gathered to hack solutions for community growth.",
       image: "/Jisrnumuw.svg",
     },
     {
       title: "Afrobot",
       date: "07 July, 2025",
       location: "Sablettes Park, Algiers, Algeria",
-      attendees: 120,
+      attendees: 1000,
       link: "https://afrobot.africa/",
       description:
-        "Afrobot is a large-scale public festival culminating in an electrifying day of robotics competitions, hands-on educational workshops, inspiring tech showcases, and vibrant community engagement. Afrobot 2025 will be hosted in the heart of Algiers at Open Air Theater in Sablettes on July 7th, 2025, the festival is designed to be an unforgettable experience for participants and spectators alike, and a welcoming beacon for future international guests and collaborators.",
+        "One of the largest youth robotics gatherings in the region, putting Abderrahmane Laala Youth House on the national map. Afrobot 2025 featured robotics competitions, hands-on educational workshops, inspiring tech showcases, and vibrant community engagement.",
       image: "/Afrobot.svg",
     },
   ];
@@ -64,7 +64,7 @@ export function PastEvents() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Users className="w-4 h-4 text-primary" />
-                    <span>{event.attendees} attendees</span>
+                    <span>{event.attendees}+ attendees</span>
                   </div>
                 </div>
               </CardContent>

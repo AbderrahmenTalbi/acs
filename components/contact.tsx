@@ -51,9 +51,9 @@ export function Contact() {
               <div className="mt-8 pt-8 border-t border-border">
                 <p className="font-medium mb-4">Follow Us</p>
                 <div className="flex gap-3">
-                  <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
+                  {/* <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
                     <Github className="w-5 h-5" />
-                  </Button>
+                  </Button> */}
                   <a href="https://www.linkedin.com/company/acs-club/" target="_blank" rel="noopener noreferrer">
                     <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
                       <Linkedin className="w-5 h-5" />
@@ -73,9 +73,9 @@ export function Contact() {
                       <Facebook className="w-5 h-5" />
                     </Button>
                   </a>
-                  <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
+                  {/* <Button size="icon" variant="outline" className="hover:border-primary/50 bg-transparent">
                     <Twitter className="w-5 h-5" />
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>

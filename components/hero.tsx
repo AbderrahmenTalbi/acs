@@ -31,7 +31,6 @@ export function Hero() {
             Innovate. Code. <span className="text-primary">Transform.</span>
           </h1>
 
-          {/* UPDATED DESCRIPTION */}
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty leading-relaxed">
             The Advanced Computing Society (ACS) is the heartbeat of tech at <strong>Abderrahmane Laala Youth House</strong>.
             We are more than just coders; we are a family of innovators enabled by the <strong>Jisr Numuw Initiative</strong>.

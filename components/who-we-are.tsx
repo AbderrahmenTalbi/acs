@@ -7,7 +7,7 @@ export function WhoWeAre() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-balance">Who We Are</h2>
           <p className="text-lg sm:text-xl text-muted-foreground text-pretty leading-relaxed">
-            The Advanced Computing Society is a student-led organization dedicated to fostering innovation,
+            The Advanced Computing Society is a youth-led organization dedicated to fostering innovation,
             collaboration, and technical excellence in the field of computer science and technology.
           </p>
         </div>
@@ -19,7 +19,7 @@ export function WhoWeAre() {
             </div>
             <h3 className="text-xl font-bold mb-4">Community First</h3>
             <p className="text-muted-foreground leading-relaxed">
-              We bring together students from all backgrounds to learn, share, and grow together in a supportive
+              We bring together youth from all backgrounds to learn, share, and grow together in a supportive
               environment.
             </p>
           </div>
